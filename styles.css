@@ -197,3 +197,10 @@ ul {
     padding: 0.5em 2em;
     cursor: pointer;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 1em;
+}
