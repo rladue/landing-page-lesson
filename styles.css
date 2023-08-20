@@ -84,6 +84,7 @@ ul {
     padding: 8px 32px;
     border: 1px solid #3882F6;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .headline .img {
@@ -194,4 +195,5 @@ ul {
     border-radius: 10px;
     margin: 0;
     padding: 0.5em 2em;
+    cursor: pointer;
 }
