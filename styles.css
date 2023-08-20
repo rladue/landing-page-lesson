@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header, .headline, .middle-content, .quote-box, .bottom-content, .footer {
+    padding: 1em 20em 2em 20em;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 a, a:visited {
@@ -19,7 +29,6 @@ ul {
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 16px 300px 64px 300px;
     justify-content: space-between;
     align-items: center;
 }
@@ -38,7 +47,6 @@ ul {
 .headline {
     background-color: #1F2937;
     display: flex;
-    padding: 16px 300px 64px 300px;
     justify-content: space-between;
     gap: 32px;
 }
@@ -47,9 +55,7 @@ ul {
     color: #F9FAF8;
     font-size: 48px;
     line-height: 48px;
-    font-weight: 1000;
-    margin: 0;
-    padding: 0;
+    font-weight: bolder;
 }
 
 .headline .content {
@@ -82,4 +88,69 @@ ul {
 
 .headline .img {
     text-align: center;
+}
+
+.middle-content {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.middle-content h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.middle-content p {
+    color: #1F2937;
+}
+
+.middle-content .title {
+    text-align: center;
+    width: 100%;
+}
+
+.middle-content .media-container {
+    width: 150px;
+    text-align: center;
+}
+
+.middle-content .img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.quote-box{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.quote-box .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-box .attribution {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 1000;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
 }
