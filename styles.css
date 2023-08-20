@@ -33,7 +33,7 @@ ul {
     align-items: center;
 }
 
-.header-logo, .header-logo a:visited {
+.header-logo, .header-logo a, .header-logo a:visited {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
