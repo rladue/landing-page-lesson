@@ -6,7 +6,7 @@ body {
 }
 
 .header, .headline, .middle-content, .quote-box, .bottom-content, .footer {
-    padding: 1em 20em 2em 20em;
+    padding: 1em 10% 2em 10%;
 }
 
 h1 {
